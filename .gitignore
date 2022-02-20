@@ -4,3 +4,4 @@ yarn.lock
 coverage
 dist
 docs
+.pnpm-debug.log
