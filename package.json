@@ -23,10 +23,6 @@
 		"docs": "typedoc source/index.ts",
 		"build": "node-ts ./scripts/build.ts"
 	},
-	"files": [
-		"dist",
-		"dev-only.js"
-	],
 	"keywords": [
 		"type",
 		"types",
@@ -78,7 +74,7 @@
 	"browser": {
 		"./dist/utils/infer-label.js": "./dist/utils/infer-label.browser.js"
 	},
-	"types": "dist",
+	"types": "index.d.ts",
 	"sideEffects": false,
 	"xo": {
 		"parserOptions": {
