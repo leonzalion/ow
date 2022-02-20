@@ -19,7 +19,7 @@
 	},
 	"scripts": {
 		"release": "lionp",
-		"test": "xo && c8 ava",
+		"test": "c8 ava",
 		"docs": "typedoc source/index.ts",
 		"build": "node-ts ./scripts/build.ts"
 	},
