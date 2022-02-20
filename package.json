@@ -1,6 +1,6 @@
 {
 	"name": "@leonzalion/ow",
-	"version": "0.28.2",
+	"version": "0.28.3",
 	"description": "Function argument validation for humans",
 	"license": "MIT",
 	"repository": "sindresorhus/ow",
