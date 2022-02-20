@@ -21,7 +21,7 @@
 		"release": "lionp",
 		"test": "xo && c8 ava",
 		"docs": "typedoc source/index.ts",
-		"build": "del-cli dist && tsc"
+		"build": "node-ts ./scripts/build.ts"
 	},
 	"files": [
 		"dist",
@@ -56,19 +56,23 @@
 		"vali-date": "^1.0.0"
 	},
 	"devDependencies": {
+		"@leonzalion/configs": "^1.0.66",
 		"@sindresorhus/tsconfig": "^0.8.0",
 		"@types/lodash.isequal": "^4.5.5",
 		"@types/node": "^16.10.2",
 		"@types/vali-date": "^1.0.0",
 		"ava": "^3.15.0",
 		"c8": "^7.10.0",
-		"del-cli": "^4.0.0",
+		"eslint": "^8.9.0",
+		"execa": "^6.1.0",
 		"expect-type": "^0.12.0",
 		"gh-pages": "^3.2.3",
+		"lion-system": "^1.0.9",
 		"lionp": "^1.0.17",
+		"prettier": "^2.5.1",
 		"ts-node": "^10.4.0",
 		"typedoc": "^0.22.5",
-		"typescript": "^4.5.0-beta",
+		"typescript": "^4.5.5",
 		"xo": "^0.46.4"
 	},
 	"browser": {
